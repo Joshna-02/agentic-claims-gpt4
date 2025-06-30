@@ -1,5 +1,5 @@
 from langchain.agents import initialize_agent, Tool
-from langchain.chat_models import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
 from langchain.chains.llm_math.base import LLMMathChain
 
 def build_agent():
