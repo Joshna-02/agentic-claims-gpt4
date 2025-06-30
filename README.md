@@ -36,7 +36,4 @@ pip install -r requirements.txt
 echo OPENAI_API_KEY=your_key_here > .env
 streamlit run app.py
 
-1. Summarize patient and diagnosis info
-2. Detect missing fields or red flags
-3. Classify: [Urgent] [Needs Review] [Approve]
-4. Justify decision with 2–3 bullet points
+
